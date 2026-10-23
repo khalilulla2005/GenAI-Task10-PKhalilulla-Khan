@@ -1,15 +1,7 @@
 import pandas as pd
-
-print("--- Task 3: Python Functionalities on Series ---")
+print("--- Task 3: Python Functionalities ---")
 marks = pd.Series([78, 85, 90, 66, 72])
-print("Maximum marks:", marks.max())
-print("Minimum marks:", marks.min())
-print("Sum of marks:", marks.sum())
-print("Mean marks:", marks.mean(), "
-")
-
+print("Max:", marks.max(), "| Min:", marks.min(), "| Sum:", marks.sum(), "| Mean:", marks.mean())
 passed = marks.apply(lambda x: x >= 70)
-print("Passed students (True/False):
-", passed.to_string(), "
-")
+print("Passed (True/False):\n", passed.to_string())
 print("Number of students passed:", passed.sum())
