@@ -4,8 +4,16 @@ This assignment demonstrates data manipulation, filtering, grouping, and basic p
 
 ## Folder Structure
 GenAI-Task10-PKhalilulla-Khan/
-+-- task1.py to task9.py
-+-- README.md
+├── task1.py
+├── task2.py
+├── task3.py
+├── task4.py
+├── task5.py
+├── task6.py
+├── task7.py
+├── task8.py
+├── task9.py
+└── README.md
 
 ## Code Execution Output
 
@@ -50,10 +58,10 @@ GenAI-Task10-PKhalilulla-Khan/
 1. Bar graph generated and saved as 'bar_graph.png'
 2. Line graph generated and saved as 'line_graph.png'
 3. Histogram generated and saved as 'histogram.png'
-
 ```
 
 ### Task 9
 ```text
 
 ```
+
